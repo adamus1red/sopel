@@ -1,11 +1,7 @@
 name: misspell
 
 on:
-  pull_request:
-    branches: master
-  push:
-    branches:
-      - 'master'
+  - push
 
 jobs:
   build:
