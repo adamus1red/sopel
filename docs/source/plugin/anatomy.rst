@@ -109,7 +109,7 @@ There are three types of rate limiting:
 
 * per-user: how often a rule triggers for each user
 * per-channel: how often a rule triggers for a given channel
-* globally: how often a rule triggers accross the whole network
+* globally: how often a rule triggers across the whole network
 
 Example::
 

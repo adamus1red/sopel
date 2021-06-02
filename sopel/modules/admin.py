@@ -404,7 +404,7 @@ def set_config(bot, trigger):
                 # Keep secret option as secret
                 value = "(secret value censored)"
         elif option.endswith("password") or option.endswith("pass"):
-            # Fallback to guessing if secret, for backward compatiblity
+            # Fallback to guessing if secret, for backward compatibility
             # TODO: consider a deprecation warning when loading settings
             value = "(password censored)"
 
